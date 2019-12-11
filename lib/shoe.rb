@@ -15,6 +15,8 @@ class Shoe
 
   def brand=(brand)
     @brand = brand
+    binding.pry
     BRANDS << brand if !BRANDS.include?(@brand)
+    binding.pry
   end
 end
