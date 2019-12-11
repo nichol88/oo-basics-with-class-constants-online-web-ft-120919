@@ -17,7 +17,7 @@ class Shoe
   def brand=(brand)
     @brand = brand
     binding.pry
-    
+
     binding.pry
   end
 end
